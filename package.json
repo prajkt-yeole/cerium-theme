@@ -1,0 +1,17 @@
+{
+  "name": "postcss-test-project",
+  "version": "1.0.0",
+  "description": "test project for post css",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postcss",
+    "scss",
+    "html",
+    "css"
+  ],
+  "author": "prajkty, roankp",
+  "license": "ISC"
+}
