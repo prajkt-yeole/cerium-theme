@@ -1,0 +1,32 @@
+//variables
+$open-sans: 'Open Sans', sans-serif;
+body {
+    font-family: $open-sans;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 399;
+}
+
+header {
+    background-image: url('../img/friend-1107005_1920.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    // background-position: center; 
+    height: 100vh;
+    .banner-text{
+      margin-top: 30%;
+    }
+}
+
+#features{
+  padding: 80px 0;
+  .card{
+    text-align: center;
+  }
+}
+
+#toll-free-number{
+  padding: 20px 0;
+  background: #ffc723;
+}

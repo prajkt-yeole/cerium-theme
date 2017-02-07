@@ -1,17 +1,26 @@
 {
-  "name": "postcss-test-project",
+  "name": "helium theme",
   "version": "1.0.0",
-  "description": "test project for post css",
-  "main": "index.html",
+  "description": "a simple html css theme for testing purpose",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "postcss",
+    "bootstrap",
+    "bootstrap4",
     "scss",
-    "html",
-    "css"
+    "material",
+    "design"
   ],
-  "author": "prajkty, roankp",
-  "license": "ISC"
+  "author": "Prajkt Yeole",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-sass": "~2.3.2",
+    "browser-sync": "~2.16.0",
+    "gulp-imagemin": "~3.0.3",
+    "del": "~2.2.2",
+    "run-sequence": "~1.2.2"
+  }
 }

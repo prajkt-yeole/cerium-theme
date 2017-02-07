@@ -1,0 +1,23 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 399; }
+
+header {
+  background-image: url("../img/friend-1107005_1920.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; }
+  header .banner-text {
+    margin-top: 30%; }
+
+#features {
+  padding: 80px 0; }
+  #features .card {
+    text-align: center; }
+
+#toll-free-number {
+  padding: 20px 0;
+  background: #ffc723; }
