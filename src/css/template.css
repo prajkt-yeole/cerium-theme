@@ -1,23 +1,154 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
-  font-size: 13px;
-  font-weight: 399; }
+  font-size: 14px;
+  font-weight: 300; }
 
 header {
-  background-image: url("../img/friend-1107005_1920.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100vh; }
+  header .logo {
+    width: 200px; }
   header .banner-text {
     margin-top: 30%; }
 
 #features {
   padding: 80px 0; }
   #features .card {
-    text-align: center; }
+    text-align: center;
+    color: #555555; }
+    #features .card h3, #features .card p {
+      font-weight: 300; }
 
 #toll-free-number {
   padding: 20px 0;
   background: #ffc723; }
+  #toll-free-number h2 {
+    font-size: 26px;
+    font-weight: 300; }
+    #toll-free-number h2 span {
+      font-weight: 400; }
+
+.heading {
+  text-align: center; }
+  .heading h1 {
+    color: #0f303f;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase; }
+  .heading span {
+    font-size: 18px;
+    color: #888888; }
+  .heading .separator {
+    margin-top: 40px !important;
+    width: 80px;
+    height: 1px;
+    border-top: 2px solid #ffc723;
+    margin: 0 auto;
+    margin-bottom: 40px; }
+
+#partners {
+  padding: 80px 0; }
+  #partners .partner-logo img {
+    padding: 20px;
+    filter: grayscale(100%);
+    transition: 300ms ease; }
+    #partners .partner-logo img:hover {
+      filter: none; }
+
+#stats {
+  padding: 80px 0;
+  text-align: center; }
+  #stats i {
+    color: #fff;
+    font-size: 60px; }
+  #stats h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffc723; }
+  #stats h3 {
+    font-weight: 300;
+    color: #fff;
+    font-size: 22px; }
+
+#testimonials {
+  padding: 80px 0; }
+
+#testimonials .sec-body {
+  position: relative;
+  padding: 0 90px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: center; }
+
+#testimonials .sec-body:before {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  content: '';
+  width: 38px;
+  height: 36px;
+  background: url(../images/icon_quote.png) no-repeat center;
+  opacity: 0.25; }
+
+#testimonials .owl-item {
+  font-style: italic; }
+
+#testimonials .owl-test .owl-controls {
+  margin-top: 50px; }
+
+#testimonials .owl-test .owl-controls .owl-page {
+  font-size: 15px;
+  text-align: center; }
+
+#testimonials .owl-test .owl-controls .owl-page > div {
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out 0s; }
+
+#testimonials .owl-test .owl-controls .owl-page span {
+  position: relative;
+  margin: 0;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 1;
+  transition: width 0.2s ease-in-out 0s, height 0.2s ease-in-out 0s; }
+
+#testimonials .owl-test .owl-controls .owl-page span:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out 0s; }
+
+#testimonials .owl-test .owl-controls .owl-page span img {
+  display: block; }
+
+#testimonials .owl-test .owl-controls .owl-page.active > div {
+  opacity: 1; }
+
+#testimonials .owl-test .owl-controls .owl-page.active span {
+  width: 60px;
+  height: 60px; }
+
+#testimonials .owl-test .owl-controls .owl-page.active span:after {
+  opacity: 0; }
+
+#testimonials .owl-test .owl-pagination {
+  margin: 0 auto;
+  width: 80%;
+  height: 100px;
+  display: table; }
+
+#testimonials .owl-test .owl-pagination .owl-page {
+  width: 1%;
+  display: table-cell;
+  vertical-align: middle; }
