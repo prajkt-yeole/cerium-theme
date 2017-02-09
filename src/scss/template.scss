@@ -185,3 +185,26 @@ header {
   display: table-cell;
   vertical-align: middle;
 }
+
+#footer-top{
+  padding: 80px 0;
+  background: #1f1f1f;
+  color: #fff;
+  h3{
+    font-size: 18px;
+  }
+  p{
+    opacity: 0.7;
+    font-size: 13px;
+  }
+  .social{
+    margin-top: 15px;
+    a{
+      padding: 10px;
+      color: #fff;
+      &:first-child{
+        padding-left: 0;
+      }
+    }
+  }
+}
