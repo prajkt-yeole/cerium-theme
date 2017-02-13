@@ -17,15 +17,17 @@ header {
   #features .card {
     text-align: center;
     color: #555555; }
-    #features .card h3, #features .card p {
+    #features .card h3,
+    #features .card p {
       font-weight: 300; }
 
 #toll-free-number {
-  padding: 20px 0;
+  padding: 40px 0;
   background: #ffc723; }
   #toll-free-number h2 {
     font-size: 26px;
-    font-weight: 300; }
+    font-weight: 300;
+    margin: 0; }
     #toll-free-number h2 span {
       font-weight: 400; }
 
@@ -158,7 +160,9 @@ header {
   background: #1f1f1f;
   color: #fff; }
   #footer-top h3 {
-    font-size: 18px; }
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-transform: uppercase; }
   #footer-top p {
     opacity: 0.7;
     font-size: 13px; }
@@ -166,6 +170,53 @@ header {
     margin-top: 15px; }
     #footer-top .social a {
       padding: 10px;
-      color: #fff; }
+      color: #fff;
+      transition: 300ms ease; }
       #footer-top .social a:first-child {
         padding-left: 0; }
+      #footer-top .social a:hover {
+        color: #ffc723; }
+  #footer-top .contact-list li {
+    list-style-type: none;
+    color: #fff;
+    opacity: 0.7;
+    margin-bottom: 25px;
+    font-size: 13px; }
+    #footer-top .contact-list li:before {
+      position: absolute;
+      left: 12px;
+      width: 20px;
+      font-size: 15px;
+      font-family: FontAwesome;
+      text-align: center;
+      color: #7A7A7A; }
+    #footer-top .contact-list li.address:before {
+      content: '\f015'; }
+    #footer-top .contact-list li.mail:before {
+      content: '\f095'; }
+    #footer-top .contact-list li.phone:before {
+      content: '\f003'; }
+    #footer-top .contact-list li .phone {
+      color: #ffc723; }
+  #footer-top .useful-links ul {
+    list-style: none;
+    padding: 0; }
+    #footer-top .useful-links ul li {
+      opacity: 0.7;
+      margin-bottom: 5px;
+      font-size: 13px; }
+      #footer-top .useful-links ul li:before {
+        font-family: FontAwesome;
+        content: '\f101';
+        color: #ffc723;
+        margin-right: 13px; }
+
+#footer {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 40px 0; }
+  #footer p {
+    margin: 0;
+    color: #fff;
+    opacity: 0.6;
+    font-size: 13px; }
