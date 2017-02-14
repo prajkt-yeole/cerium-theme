@@ -1,6 +1,5 @@
 //variables
-$roboto: 'Roboto',
-sans-serif;
+$roboto: 'Roboto', sans-serif;
 $primary-color: #555555;
 body {
     font-family: $roboto;
@@ -59,6 +58,7 @@ header {
         li {
             a {
                 color: #fff;
+                font-size: 16px;
                 // transition: 300ms ease;
                 &:hover,
                 &:active,

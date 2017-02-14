@@ -29,7 +29,8 @@ header {
         color: #ffc723; }
 
 .custom-nav .nav li a {
-  color: #fff; }
+  color: #fff;
+  font-size: 16px; }
   .custom-nav .nav li a:hover, .custom-nav .nav li a:active, .custom-nav .nav li a:focus {
     background: transparent;
     border-bottom: 3px solid #ffc723; }
