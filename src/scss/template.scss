@@ -8,22 +8,74 @@ body {
     margin: 0;
     font-size: 14px;
     font-weight: 300;
+    position: relative;
 }
 
+//////////////////////////////////////////////////////////
+//////                                              //////
+//////                  Header                      //////
+//////                                              //////
+//////////////////////////////////////////////////////////
 header {
     // background-image: url('../img/banner.png');
     // background-repeat: no-repeat;
     // background-attachment: fixed;
     // background-position: center; 
     height: 100vh;
+    padding-top: 40px;
+    position: relative;
     .logo {
         width: 200px;
     }
-    .banner-text {
-        margin-top: 30%;
+    .banner-text{
+        position: absolute;
+        margin: 0 auto;
+        left: 0; 
+        right: 0;
+        top: 40%;
+        color: #fff;
+        h3{
+            font-size: 28px;
+            font-weight: 100; 
+        }
+        h1{
+            font-size: 36px;
+            font-weight: 300;
+            span{
+                color: #ffc723;
+            }
+        }
+    }
+  
+}
+
+//////////////////////////////////////////////////////////
+//////                                              //////
+//////                  Navbar                      //////
+//////                                              //////
+//////////////////////////////////////////////////////////
+.custom-nav {
+    .nav {
+        li {
+            a {
+                color: #fff;
+                // transition: 300ms ease;
+                &:hover,
+                &:active,
+                &:focus {
+                    background: transparent;
+                    border-bottom: 3px solid #ffc723;
+                }
+            }
+        }
     }
 }
 
+//////////////////////////////////////////////////////////
+//////                                              //////
+//////                  Features                    //////
+//////                                              //////
+//////////////////////////////////////////////////////////
 #features {
     padding: 80px 0;
     .card {
@@ -36,6 +88,11 @@ header {
     }
 }
 
+//////////////////////////////////////////////////////////
+//////                                              //////
+//////              Toll free Number                //////
+//////                                              //////
+//////////////////////////////////////////////////////////
 #toll-free-number {
     padding: 40px 0;
     background: #ffc723;
@@ -72,6 +129,11 @@ header {
     }
 }
 
+//////////////////////////////////////////////////////////
+//////                                              //////
+//////                  Partners                    //////
+//////                                              //////
+//////////////////////////////////////////////////////////
 #partners {
     padding: 80px 0;
     .partner-logo {
@@ -86,6 +148,11 @@ header {
     }
 }
 
+//////////////////////////////////////////////////////////
+//////                                              //////
+//////                  Stats                       //////
+//////                                              //////
+//////////////////////////////////////////////////////////
 #stats {
     padding: 80px 0;
     text-align: center;
@@ -105,6 +172,11 @@ header {
     }
 }
 
+//////////////////////////////////////////////////////////
+//////                                              //////
+//////                Testimonials                  //////
+//////                                              //////
+//////////////////////////////////////////////////////////
 #testimonials {
     padding: 80px 0;
 }
@@ -203,6 +275,11 @@ header {
     vertical-align: middle;
 }
 
+//////////////////////////////////////////////////////////
+//////                                              //////
+//////                Footer Top                    //////
+//////                                              //////
+//////////////////////////////////////////////////////////
 #footer-top {
     padding: 80px 0;
     background: #1f1f1f;
@@ -225,8 +302,8 @@ header {
             &:first-child {
                 padding-left: 0;
             }
-            &:hover{
-              color: #ffc723;
+            &:hover {
+                color: #ffc723;
             }
         }
     }
@@ -255,38 +332,43 @@ header {
             &.phone:before {
                 content: '\f003'
             }
-            .phone{
-              color: #ffc723;
+            .phone {
+                color: #ffc723;
             }
         }
     }
-    .useful-links{
-      ul{
-        list-style: none;
-        padding: 0;
-        li{
-          opacity: 0.7;
-          margin-bottom: 5px;
-          font-size: 13px;
-          &:before{
-            font-family: FontAwesome;
-            content: '\f101';
-            color: #ffc723;
-            margin-right: 13px;
-          }
+    .useful-links {
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+                opacity: 0.7;
+                margin-bottom: 5px;
+                font-size: 13px;
+                &:before {
+                    font-family: FontAwesome;
+                    content: '\f101';
+                    color: #ffc723;
+                    margin-right: 13px;
+                }
+            }
         }
-      }
     }
 }
 
-#footer{
-  background: #1a1a1a;
-  text-align: center;
-  padding: 40px 0;
-  p{
-    margin: 0;
-    color: #fff;
-    opacity: 0.6;
-    font-size: 13px;
-  }
+//////////////////////////////////////////////////////////
+//////                                              //////
+//////                  Footer                      //////
+//////                                              //////
+//////////////////////////////////////////////////////////
+#footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 40px 0;
+    p {
+        margin: 0;
+        color: #fff;
+        opacity: 0.6;
+        font-size: 13px;
+    }
 }

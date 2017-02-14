@@ -3,14 +3,36 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14px;
-  font-weight: 300; }
+  font-weight: 300;
+  position: relative; }
 
 header {
-  height: 100vh; }
+  height: 100vh;
+  padding-top: 40px;
+  position: relative; }
   header .logo {
     width: 200px; }
   header .banner-text {
-    margin-top: 30%; }
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    color: #fff; }
+    header .banner-text h3 {
+      font-size: 28px;
+      font-weight: 100; }
+    header .banner-text h1 {
+      font-size: 36px;
+      font-weight: 300; }
+      header .banner-text h1 span {
+        color: #ffc723; }
+
+.custom-nav .nav li a {
+  color: #fff; }
+  .custom-nav .nav li a:hover, .custom-nav .nav li a:active, .custom-nav .nav li a:focus {
+    background: transparent;
+    border-bottom: 3px solid #ffc723; }
 
 #features {
   padding: 80px 0; }
