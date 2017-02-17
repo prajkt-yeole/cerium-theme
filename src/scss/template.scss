@@ -1,5 +1,6 @@
 //variables
-$roboto: 'Roboto', sans-serif;
+$roboto: 'Roboto',
+sans-serif;
 $primary-color: #555555;
 body {
     font-family: $roboto;
@@ -26,26 +27,29 @@ header {
     .logo {
         width: 200px;
     }
-    .banner-text{
+    .banner-text {
         position: absolute;
         margin: 0 auto;
-        left: 0; 
+        left: 0;
         right: 0;
         top: 40%;
         color: #fff;
-        h3{
+        h3 {
             font-size: 28px;
-            font-weight: 100; 
+            font-weight: 100;
         }
-        h1{
+        h1 {
             font-size: 36px;
             font-weight: 300;
-            span{
+            span {
                 color: #ffc723;
             }
         }
     }
-  
+}
+
+.innerHeader {
+    height: 250px;
 }
 
 //////////////////////////////////////////////////////////
@@ -54,8 +58,17 @@ header {
 //////                                              //////
 //////////////////////////////////////////////////////////
 .custom-nav {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
     .nav {
         li {
+            &.active {
+                background: transparent;
+                border-bottom: 3px solid #ffc723;
+            }
             a {
                 color: #fff;
                 font-size: 16px;

@@ -28,12 +28,24 @@ header {
       header .banner-text h1 span {
         color: #ffc723; }
 
-.custom-nav .nav li a {
-  color: #fff;
-  font-size: 16px; }
-  .custom-nav .nav li a:hover, .custom-nav .nav li a:active, .custom-nav .nav li a:focus {
+.innerHeader {
+  height: 250px; }
+
+.custom-nav {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; }
+  .custom-nav .nav li.active {
     background: transparent;
     border-bottom: 3px solid #ffc723; }
+  .custom-nav .nav li a {
+    color: #fff;
+    font-size: 16px; }
+    .custom-nav .nav li a:hover, .custom-nav .nav li a:active, .custom-nav .nav li a:focus {
+      background: transparent;
+      border-bottom: 3px solid #ffc723; }
 
 #features {
   padding: 80px 0; }
